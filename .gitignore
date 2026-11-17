@@ -1,0 +1,18 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Generated data / model
+aug/
+*.h5
+
+# Local editor / assistant files
+.vscode/
+CLAUDE.md

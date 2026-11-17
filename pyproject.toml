@@ -1,0 +1,22 @@
+[project]
+name = "cnnclassificaction-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "jupyter>=1.1.1",
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.5",
+    "opencv-python>=5.0.0.93",
+    "pillow>=13.0.0",
+    "scikit-learn>=1.9.1",
+    "scipy>=1.18.1",
+    "tensorflow>=2.21.0",
+]
+
+[tool.ruff.lint]
+# Style-only rules flagged in the notebooks. Ignored here so the notebook code
+# itself stays unchanged.
+[tool.ruff.lint.per-file-ignores]
+"*.ipynb" = ["E722", "S110", "BLE001", "SIM113", "I001", "PLR2044", "F401"]
